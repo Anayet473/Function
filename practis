@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+  void call(){
+  cout << "Abid" <<'\n';
+  cout << "anayet" <<'\n';
+  }
+  void call_again (){
+  cout <<"Atik" << '\n';
+  } 
+ int main() {
+ call();
+ call_again();
+ 
+  return 0;
+}
