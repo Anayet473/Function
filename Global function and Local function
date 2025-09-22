@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+ int global_v = 7;
+ void anayet(){
+  int local_v = 10;
+  cout << "local value :" << local_v << '\n';
+  cout << "global value :" << global_v << '\n';
+  int gloval_v = 20;
+  cout << "modify global value :" << gloval_v << '\n';
+ }
+ int main() {
+  cout << global_v << '\n';
+  anayet();
+ 
+  return 0;
+}
